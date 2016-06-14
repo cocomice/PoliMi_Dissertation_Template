@@ -1,0 +1,22 @@
+\chapter{Introduction}\label{ch:intro}
+
+Here is a brief explanation of how to use this template.
+
+Use the ``Glossary'' package to easily call the pre-defined acronym and symbols. For example,
+
+\begin{enumerate}
+\item[-] Acronym:  \acs{mcda};
+\item[-] Symbols: $\gls{not:pi}$;
+\end{enumerate}
+
+To compile the glossary use the combo command below : 
+
+\begin{enumerate}
+\item pdflatex document
+\item bibtex document
+\item makeglossaries document
+\item pdflatex document
+\item pdflatex document
+\end{enumerate}
+
+For the compiling bibliography is it suggested to use ``bibtex'' package. The advantage is that it is extremely easy to unify the format of the literature style by simply declaring some parameters in that package. However, to use this package one needs to use ``biber'' as your the bib compiler program. 

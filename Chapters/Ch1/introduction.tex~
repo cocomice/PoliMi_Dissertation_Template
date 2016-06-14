@@ -1,0 +1,1090 @@
+\chapter{Introduction}\label{ch:intro}
+
+% =====================================
+\section{Motivation}\label{sec:intro_motivation}
+
+From ancient Mesopotamia culture to Chinese Yellow River civilization, since
+the emergence of human society along the river catchments, water has been
+playing a critical role in supporting the development of human civilization.
+On the other hand, the natural variability of water resource directly or
+indirectly related to many disastrous natural hazards, 
+stimulating humans' adaptive nature \citep{potts1996evolution}, and leading us
+to try to understand the hydrological cycle and to manage the water resource for the prosperity of human
+welfare. A history of water management might as well be a history of mankind's
+socialization process.
+
+The efforts spent in learning and managing water are never halted, but are
+continuously amplified thanks to the innovations of modern technologies and the
+accumulation of scientific wisdom. Stepping into 21st century human beings
+are in the new era with enormous capacity in modifying, managing and
+regulating the water systems, with countless engineering artifacts
+unequivocally showing the power of mankind. A tip of those examples are, for
+instance, the Three Gorges Dam featuring a total electric power generating
+capacity of 22,500 MW, the Ras Al Khair desalination plant that is able to
+produce 1,025,000 $m^3$ water per day (in 2014), and the stormwater drainage
+systems in modern cities for diverting runoff water and reducing flood risk in
+the cities. In fact, the water system and human society have been twisted
+together for quite a history, forming an intimate relationship. On one hand,
+the use of water resource is not anymore limited to watering crops in
+agricultural sectors, but extends into hydro-power generation, industrial
+production and the urban lifestyle. In other word, water has penetrated into
+every angle of modern human life and the availability (or unavailability) of
+water will manifest greater impact on our strategies of survival and
+well-being. On the other hand, the day-to-day activities within the human society
+are equally impacting the water body in terms of both quantity as well as the
+quality. For example, the return flow of urban waste water into lake body may
+alter the nitrification process, causing eutrophication problem.
+The water release from reservoir operation may change the temperature of river
+downstream, impacting the river ecosystem as well as that alongside.
+
+Given the close bond and direct feedback between water system and human
+society, it makes an intuitive attempt to treat the human entities as endogenous components
+within the water system where the society resides and interacts with, rather
+than exogenous forcing that only unilaterally impacting the water body. Many
+theoretical studies have already suggested such holistic view on the human and
+water system \citep[e.g.,][]{Falkenmark1998,Wagener2010,Sivapalan2012}.
+Moreover, the dynamic mutual interaction implies the two systems are
+interconnected and co-evolve in time. Particularly, the evolution of natural
+water system with evident human footprints are resulting from not only the
+natural environmental process but also the anthropogenic activities, where latter
+is rivaling with former with deepening and widening influence
+\citep[e.g.,][]{Liu2014,nilsson2005fragmentation,ma2008analysis,
+wang2007stepwise}. Under the climate change context with increasing
+temperature in the near future \citep{pachauri2007contribution}, the
+co-evolution of human-water systems are expected to take place at more rapid
+pace and the feedback mechanism will further reinforce such process,
+specially if the societies of mankind are reacting to the changing
+environment with aggressive adaptation and migration strategies.
+
+%   Therefore, the human entities with regard to the water resource system is no
+%   more the exogenous forcing that unilaterally impacting the water body, but
+%   rather an endogenous component within that system where feedback between human
+%   society and water system occurs ergodically.
+%   \item In addition, the bond between the water system and human society implies
+%   that the boundary of water system is not limited by its physical boarders but
+%   rather by its societal influence, which may include the downstream basin, such
+%   as farmland area or even cross the countries if the river is trans-border. The
+%   involvement of multiple sectors whose interests differ from one to the other
+%   will further complicates the water system, where human footprint may show
+%   increasing dominance.
+
+Therefore, it is far less clear than before about how the human-water
+system will evolve into the future, and traditional methodologies in studying
+the water problems need to be ruminated and overhauled on their applicability
+for embracing the new challenges. Yet, reviewing the literature it can be
+noticed that most techniques in analyzing water system are assuming the
+stationary boundary conditions, e.g., rainfall or stream flow, meaning that
+the statistical finger prints of those driving forces from historical
+observations will remain the same in the future.
+Mathematical models built on such assumption usually consider only the subset
+of human-water systems in the analysis, namely the physical environment or
+societal sector (e.g., water demand sector or/and supply sector), leaving the
+rest as exogenous drivers in presumed scenarios
+\citep[e.g.,][]{vorosmarty2000global, rosenzweig2004water, gordon2005human,
+medellin2008adaptability}. In these cases, the feedback between the natural and
+human system is either ignored or simplified. Although for quite a time we have been greatly benefited from the
+stationarity assumption and succeeded in managing the water
+systems confronting of many potential risks, it is not clear
+about how much gain one can withhold from the traditional approaches as the
+climate change continues to unfold its multi-dimensional affects on
+planetary scale. 
+
+Stationarity is fading \citep{milly2007stationarity}, as is both
+expected in future and observed in recent decades, and human is becoming the
+principle drivers of environmental process. There is an increasing need to
+bring the human players back to the paradigm of water system analysis,
+justifying their roles as both stakeholders in water resource management but
+also as the active endogenous drivers that dynamically shaping the structure of
+the water system physically and politically.
+New approaches have to attach to the holistic view of the water system, treat
+the human sectors and natural systems as integrity and explicitly account for
+human activities as the internal components. The effort for achieving this
+methodologically is twofold. First, system modeling frameworks have to find
+ways to glue the anthropogenic sphere with the hydrological systems such that
+the feedback between the human activities and hydrological cycles can be
+addressed internally. Thanks to the advance of computer technology and
+information science, there are now a number of ways to accomplish this task
+via, e.g., agent based modeling framework (ABM, see \citep{ferber1999multi}),
+in which each agent represents an active decision-maker who lives on the common
+environment and interacts within. A few examples of applications of
+agent-based modeling in water systems can be found in, e.g., \cite{Ng2011},
+\cite{Barthel2008}, \cite{Becu2003}, \cite{giuliani2013assessing}, and a
+comprehensive discussions about utility of agent-based modeling in water
+resource management can be found in \cite{giuliani2014agent}. It is worth to
+mention that with agent based framework, not only the feedback between agents
+and physical environment can be modeled but also the social network can be
+represented through agents interactions. Secondly, human as an autonomous 
+self-organizing agents, their behavior are influenced by many factors
+(e.g., personal belief, monetary constraint, others' opinions) and hence are
+characterised by high non-linearity and uncertainties. Modeling humans'
+behaviors as simple rule-based cellular automate may not be sufficient to
+capture the interesting phenomenons or even drive the simulation into astray.
+Advanced behavioral models have to be implemented or consulted from other
+disciplinary, such as cognition science or decision-making theory. However,
+to the author's best knowledge there are only a small number of literature
+studying behavioral models for water resource management
+\citep[e.g][]{hamilton1983saving,lam1999predicting,yazdanpanah2014understanding},
+and the combined use with agent-based framework is even fewer. Therefore, how
+to model the humans' behaviors and incorporate them into the large picture of
+system model in a flexible and meaningful way represents the major challenge
+in approaching the holistic view of modern human-water system analysis. 
+
+%   This is not a trivial task, however, as the human behavior is far more complex
+%   and hence difficult to predict. The existence of multiple heterogeneous individuals and the
+%   interactions amongst further complicate such task. On the bright side, there
+%   are enumorous studies from psychology and behavioral economics disciplines
+%   trying to identify the pattern of human behavior. What is more encouraging is
+%   that there are now also many studies in the water resource management which
+%   explicitly model the decision-makers behaviors as part of coupled
+%   human-natural system (CHNS) (cite) using, e.g. multi-agent system.
+%   Under the climate change context, the projected change in the societal domain
+%   is no less strong as the change of hydro-climatic conditions.
+%   Adaptation is expected to take place more frequently and more intensely, which
+%   implies greater impact from human activities and also casting the potential
+%   risk from it if the feedback in between is not understand adequately,
+%   analogous to the ignorance of feedback between the human activities and global
+%   warming phenomenon at very beginning.
+
+%   \item In CHNS, the active stakeholders are no less important than the
+%   authoritative decision-maker, which is different from the traditional
+%   centralized approach as advocated by the classic Operational Research and
+%   System Control discipline, in which one decision-maker is usually assumed and
+%   the objective is to find the solution in order to optimize the system-wide
+%   performance.
+This Ph.D dissertation contributes a novel decision-analytic framework
+by constructing the coupled human and natural system (CHNS, see
+\cite{liu2007coupled}) with agent based models by explicitly describing the processes of 
+human decision-making as impacting on the natural process, and the feedbacks of these latter on humans' sectors.  
+
+In the following sections, a brief discussion about the progress of CHNS
+and human behavioral models will be given in order help readers develop the
+main context of the present thesis. The author will use `human entity' or a
+particular occupation, e.g., farmers or water regulator, to refer to an
+individual mankind, while use `agent' instead for more general cases in which
+agent could be of higher abstraction, such as group of humans or organizations.
+Moreover, if is not specifically pointed out, the world `decision-making' will
+be equivalent to the meaning of `behavior' (or action) in this case, as the
+emphasis of behavioral models in the dissertation is on the decisions through
+which agents interact with the environment. This idea is in contrary to many
+cognitive studies where the focus is on the mental states or intentions of the human entity.
+
+% \item In general, one tends to overhaul system under
+%   different scenarios, and then use, e.g. sensitivity analysis (SA),
+%   optimization algorithm to improve the system's performance correspondingly. In
+%   such as way the model can be used as a decision-supporting tool to
+%   inform decision-makers in
+%   \item However,
+
+% =====================================
+\section{Coupled human and natural systems (CHNS) model}\label{sec:intro_CHNS}
+
+Interactions between human and nature have long been recognized
+\citep[e.g.,][]{marsh1965man,thomas1956man,turner1988earth,heichelheim1956man,
+falkenmark1977water,redman1999human}, and during the development of natural
+science there were visionaries who proactively suggested holistic perspective on
+the partnership between the human and natural systems from time to time
+\citep[e.g.,][]{holling1978adaptive,redman1999human,vitousek1997human,kates1999our}.
+Regardless of the voice from those advocates, few studies are really practicing such idea in
+developing their methodologies. This might partly be due to the intrinsic
+complexity of either natural system or human system that already poses a
+number of unsolved questions for academia community, let alone their
+interactions which are even more complicated. In addition, human activities
+might not be as pervasive as they are now and hence their impacts on the
+natural system are arguably small to produce profound affects. Dually the
+potential risk from environment hazards, e.g., flood or drought events, were
+still manageable through engineering approaches for sufficiently long time,
+given the stationarity assumption of natural variability.
+
+To date we are in a critical period in which individual humans are
+weaved into a gigantic web due to the globalization (a cite?), and the affects
+of anthropogenic activities, particularly the industrial productions, have
+cumulatively manifesting profound impacts on the earth. Global warming
+phenomenon, in particular, has been reported to feature a strong human footprint in
+the trend (see figure \ref{fig:global_warming}, \citep{IPCC2007}). The
+projected future climate shows an increase of at least around 2 degree
+by the end of this century \citep{stocker2013ipcc}, and the changed climate will
+alter the statistical distributions of many hydro-climatic variables,
+accompanied with more extreme events and ultimately weaken the
+stationarity assumption. More concerns on conventional decoupled analysis of
+human/natural systems are arising under such climate change context, which
+informs current interests in CHNS models.
+
+CHNS are not merely alignments of human and natural systems, but rather
+an integrated system in which humans interact with the environment. The focus
+of CHNS lies on studying the patterns and processes that link human and
+natural systems, and the reciprocal feedback between the two across spatial
+and temporal scales \citep{liu2007coupled}. The term `coupling' implies the
+interlacing of the two subsystems at lower level, which can be conceptualized
+as the entities with nested hierarchies \citep{gunderson2001panarchy}. The dynamic
+feedback loops in the coupled system will either accelerate or hinder the rate of
+changes of the components in the human or natural systems, producing
+unexpected consequences or anticipated results but at a more rapid pace
+\citep[e.g.][]{Liu2007,steffen2006global}, which might be underestimated with
+traditional approaches.
+
+Although the idea of CHNS is not completely new (e.g., the Integrated
+Water Resources Management (IWRM), e.g., \cite{fang2007management},
+\cite{jonch2001firming}, \cite{van2005integrated}, \cite{medema2008premise},
+\cite{mitchell2005integrated}), this time it quickly sparked many
+relevant research activities.
+In the hydrological domain topics such as socio-hydrology
+\citep{Sivapalan2012}, water diplomacy \citep{islam2012water} and the Panta
+Rhei \citep{montanari2013panta} project are actively pushing the applications of
+CHNS and advance the understandings of human and natural interactions. By and
+large, most of the works in coupling human and natural systems take two paths,
+i.e., a conceptual lumped model where differential equations are used to
+represent stylized parsimonious coupled systems with human-nature interactions
+incorporated as internal parameters, whose values will change as the
+interactions go on \citep[e.g.][]{liu2015conceptual,van2014socio}, or
+agent-based models in which the anthropogenic elements are modeled as
+distributed individual agents acting within a common environment
+\citep[e.g.,][]{Ralha2013,Ducrot2004a,vanOel2010}.
+Despite the simplistic form of the lumped models, agent-based models are
+generally more flexible for constructing CNHS due to their abilities of
+representing the heterogeneity of human entities and to explore the
+decentralized solutions. 
+Moreover, not only the human-nature feedbacks but also the social interactions
+can be modeled within agent-based framework, therefore a more realistic
+panorama of CHNS can be sketched.
+
+Nevertheless, applications of ABM framework for human-natural systems,
+particularly hydrological systems, are still in their infancy. First,
+constructing the ABM for CHNS models requires substantial parameters to be
+defined and calibrated in order to represent a fully distributed heterogeneous
+environment, including the human sphere \citep{Bazghandi2012}. Secondly, because
+ABM is intrinsically composed by a number of modules (e.g., agent models,
+environmental layers), leading to the highly non-linear dynamics of model
+behavior, it is not easy to understand the results nor to validate them
+\citep{ligtenberg2010validation}.
+
+Last but not the least, it is still not clear enough about how humans behave and
+interact with the environment, even for some specific decisions, e.g., farmers'
+crop choices. New techniques and multi-disciplinary efforts are needed to
+advance the ABM framework. More details about the modeling approach for agents'
+behaviors will be provided in the following section.
+
+%\usepackage{graphics} is needed for \includegraphics
+\begin{figure}[htp]
+\begin{center}
+  \includegraphics[width=0.8\textwidth]{Chapters/Ch1/figs/spm4_AR4.jpg}
+  \caption{Adapted from IPCC AR4 report, which shows the trend of increasing
+  temperature on the global scale from the observed data, with and without the
+  anthropogenic forces. The comparison highlights the strong influence of human
+  impacts in the past.}
+  \label{fig:global_warming}
+\end{center}
+\end{figure}
+% 
+% Mathematical models is useful to represent a real system with necessary
+% simplification, for helping researchers to infer system behavior from
+% assumptions and for decision support, and hence is popularly used by many water
+% system scientists. However, traditional paradigm of water system studies usually
+% preclude the human components from the water system model, treating it as
+% exogenous drivers whose impact will is only unilaterally posed on the hydrologic
+% system. Dually, the influence from modification of hydrologic regime on human
+% system is done in similar way, by assuming different scenarios of hydrologicalr
+% boundary conditions and feeding it into socio-economic models. Although
+% theoretical work that stressing the importance of endogenous view of human
+% components never stop voicing, attempts in modelling either one are still
+% undertaken in a decoupled way or/and in separate disciplines and empirical
+% studies with an integrated setting are lacking. Particularly research about
+% human system is commonly studies in socio-economic domain.
+% 
+% On the macro scale, foci usually are given on the strutuctural change of the
+% societal system due to the coevolution of cultural, economical, technological,
+% institutional as well as the ecological development at different scales under
+% external strees. Models are useful to experiment and explore the possible
+% outcomes of complex social system in a explicit, clear and systematic way, and
+% help to gain better understanding of the real system dynamic or/and causal
+% relationship.
+% Agent-based models from distributed artificial intellengice discipline are
+% frequently adopted in those studies, in which each agent represents a individual
+% or aggregated decision-maker(s). The behavioral rules of agents are usually of
+% simplistic form, e.g. if-else rules, while agents can interact with each other
+% similar to the social interaction. The heterogeneous behavior of agents and
+% social interaction allows the emergence of systematic phenomenon from such
+% micro-scale behavioral patterns. Advance of information system techonolgy
+% nowadays enable the simulation of very large scale social system with thousands
+% of agents involved. However, due to the simplification of agent behavior the
+% agent-based models are usually used to describe the possible scenarios given the
+% assumptions rather than to predict the outcome. Moreover, due to the complexity
+% of agent models it is also difficult to validate the model against the
+% observations.
+% 
+% Studies on micro scale tends to be more specifc, focusing on small group or
+% individual decision-maker.
+% 
+% 
+% Coupling human and hydrologic system is concerned with developing mathematical
+% models to understand how the hydrological system and human society change over
+% time due to feedbacks with each other under changing conditions, particularly
+% under climate change context. However, despite the intimate relationship between
+% the human society and the natural system, attempts in modelling either one are
+% usually undertaken in a decoupled way or/and in separate disciplines,
+% particularly research about human system is commonly studied in socio-economic
+% or physiological domains. On a mirco scale, studies on individual behavior is
+% xxx. On the macro scale, simulations of societal process usually adopt the
+% agent-based models from artificial intellengice discipline, in which each agent
+% represents a individual or aggregated decision-maker(s). The behavioral rules of
+% agents are usually of simplistic form, e.g. if-else rules, while agents can
+% interact with each other similar to the social interaction. The heteorogenous
+% behavior of agents and social interaction allows the emergence of systematic
+% phenomenon from such micro-scale behavioral patterns. Advance of information
+% system techonolgy nowadays enable the simualtion of very large scale social
+% system with thousands of agents invovled. However, due to the simplificaiton of
+% agent behavior the agent-based models are usually used to describe the possible
+% scenarios given the assumptions rather than to prdict the outcome. Moreover, due
+% to the complexity of agent models it is also difficult to validate the model
+% against the observaions.
+% 
+% However, it is not straight forward to establish the CNHS by simplying blending
+% differents models together. Rather, to achieve the effective modelling of CNHS
+% requires one to solving series of questions (e.g. validation, scale issue, )
+% 
+% co-evolutional socio-hydrology is concerned with developing a mechanistic
+% understanding of how the hydrological system and human society change over time
+% due to feedbacks with each other. To address the co-evolution of systems,
+% structural evolution and coupling between multiples processes at long timescales
+% must be explicitly addressed. This will require that new connections are made
+% between hydrology and other earth surface, biological and social disciplines.
+% However, given the fact that both hydrological system and human society are
+% complex and heterogeneous, it would be desirable to find a way that, on one
+% hand, it is capable of handling autonomously acting agents as well as taking
+% spatial and local aspects into account, and, on the other hand, it is able to
+% constraint the complexity of the entire system. In this context, we define the
+% framework of co-evolutional socio-hydrology study into the following blocks: 1)
+% \textbf{General Modeling Framework}; 2) \textbf{Natural Process Component}; 3)
+% \textbf{Behavioral Model}; 4) \textbf{Modeling Time Step}; 5) \textbf{Behavioral
+% Parameterization}; 6) \textbf{Calibration and Validation Techniques}.
+% 
+% \textbf{General Modeling Framework} concerns on how to articulate social systems
+% with hydrological systems. Historically, human alterations to the water cycle
+% are treated as an external drivers whose impacts is unilateral, but it is well
+% known that human intervention to the environment is not only dynamic but also
+% bilateral. In fact, co-evolutionary socio-hydrology tends to treat both socio
+% system and hydrologic system as endogenous component with respect to each other,
+% and coupling them two is critical to evaluate the systematic changes due to
+% co-evolution process. A good starting point can be Cellular Automata (CA)
+% approach. In CA, each cell exists in one of a finite set of states, and future
+% states depend on transition rules based on a local spatiotemporal neighborhood.
+% The system is homogeneous in the sense that the set of possible states is the
+% same for each cell and the same transition rule applies to each cell.
+% \citealt{Balmann2009} presents a general cellular automata (CA) model framework
+% to investigate whether structural change in an agricultural region is path
+% dependent. The model involves a number of individually acting farms, as
+% representatives of farmers, located at different points in an agricultural
+% region and they try to optimize their activities with respect to their objective
+% function by considering their expectations, financial state and existing assets.
+% % All in all the individual decisions are based on objectives and expectations,
+% % as well as on technical and economic restrictions.
+% Although CA approach inductively assumes that the actions of human agents are
+% important, in many cases it does not expressly model the human's
+% decision-making. Others try to improve the model by explicitly positing a set of
+% agents coincident with lattice cells and using transition rules as proxies to
+% decision making. This encourages people to split the agent from the CA framework
+% and model it explicitly. Human component is crucial in co-evolutionary
+% socio-hydrology, and in nature, they are nothing but intelligent agents who have
+% control over their actions and internal state in order to achieve goals.
+% Specifically, they are autonomous, they share an environment through agent
+% communication and interaction, and they make decisions that tie behavior to the
+% environment.
+% Therefore, the desire for inheriting the CA modeling framework while giving more
+% credits on the agent concept and the decision-making process brings the
+% Multi-Agent Systems (MASs) into people's view. MAS features a dynamic, spatial
+% simulation-like model that consists of two components. The first is a cellular
+% model that represents bio-geophysical and ecological aspects of a modeled
+% system. The second is an agent-based model to represent human decision making.
+% The cellular model is part of the agents' environment, and the agents in turn
+% act on the simulated environment \citep[e.g.][]{Bousquet2004, citeulike:233804}.
+% 
+% Under the general framework such as MASs, \textbf{Natural Process Component} and
+% \textbf{Agent} are two fundamental building blocks that constitute the social
+% and environment systems, respectively. Elaboration of these components is
+% necessary to facilitate the simulations and embody the co-evolutionary process
+% correctly. As for the \textbf{Natural Process Component}, it is the carrier of
+% hydrological variables (e.g. ground water flow, surface runoff,
+% evaporation/transpiration) and physic-chemical matters (nutrient, pesticides,
+% etc.), as well as the medium with which human interacts. For example,
+% agriculture land is such natural component which is constantly being impacted
+% through the farming practice, such as irrigation and fertilizing. Changing in
+% the soil moisture and fertility greatly determines the state of crop growth,
+% which in turn influence the yields and consequently, farmers' income.
+% In MAS, the natural process component is represented by the cellular model which
+% is usually drew on the spatial distributed bio-physical models, such as
+% distributed rainfall-runoff models. It serves to simulate the dynamic involution
+% of environment and provides the information for decision-making process of
+% agents. Spatial resolution of those components is important in the sense that
+% improper size of cell may fail to capture the variability of the constraints in
+% space and time, resulting into unrealistic decision from simulation of agents'
+% behavior.
+% For example, a region simulated by the model may appear to have an overall
+% seasonal water supply, but if the water is unevenly distributed in this area or
+% in time, there are some farmers who, in fact, are not guaranteed with sufficient
+% water supply or access to water when they need it. From model computation point
+% of view, however, increase of spatial resolution requires more intensive
+% computation power. Therefore, a trade-off is necessary.
+% 
+% \textbf{Agents}, as another important constituent, represent social entities
+% that interact with the environment through various perspectives. Their behaviors
+% are typically characterized by their decision-making (cognition) process, i.e.
+% agents act according to some model of cognition that links their autonomous
+% goals to the environment through their behavior. The term cognition ranges in
+% applicability to relatively simple stimulus-response decision making to the
+% point where actors are proactive, take initiative, and have larger intentions.
+% At a minimum, an autonomous agent needs strategies that allow it to react to
+% changes in environment, given the importance of the environment to goals and
+% actions.
+% To underline these processes it is necessary to understand human's behavior
+% under various circumstances. However, modeling human behavior is quite complex
+% due to the high heterogeneity and uncertainties in human's cognition and
+% decision making process. Behavioural (cognition) models allow the representation
+% of these complex systems into a simplified framework in order to investigate a
+% strand of the structural whole. Generally there are two approaches of
+% approximating human behavior: \textbf{Explicit method} and \textbf{Implicit
+% method}.
+% Each method can further embrace four attributes: \textbf{Decision Criteria},
+% \textbf{Model Typology}, \textbf{Decision Variables }and \textbf{Constraints}.
+% Particularly, for implicit method, the decision criteria actually refer to the
+% objective functions to be optimized.
+% 
+% In this first approach one explicitly model the human's decision (cognition)
+% process, e.g. perception, judgment, experience, expectation and action. Usually
+% this kind of models is derived from social-psychological or neuro-behavioral
+% science built on the concept of bounded rationality. Decision makers follow
+% relatively simple rules (also referred as condition-action, stimulus-response
+% rules or if-then rules) that guide their decision-making process. The explicit
+% behavioral model can be implemented in a tree-alike approach in which
+% hierarchically interconnected branches constitute the cognation path followed by
+% an agent. %(make a literature review as an example).
+% Moreover, it is easy to validate this kind of decision-tree as in each branch
+% one can simply check whether the decision maker do follow certain path or not,
+% by interviewing target agents or/and expertise. However, constructing a decision
+% tree is not a straightforward task, as the researcher needs to identify not only
+% the most important decisions, but also in the correct sequence.
+% \citealt{Ducrot2004a} proposed a multi-agent model prototype to represent the
+% relationships between urbanization dynamics and land and water management in a
+% peri-urban catchment area, where farmers' decision-making process is guided by a
+% series of ``rules''.
+% In this case two types of agents are involved which are farmers and land owners.
+% Farmers make decisions about which crop to grow while the urban owners decide
+% their investment strategy on land (plot), and at same time they compete for the
+% use of unoccupied plots. However, agents' decisions are constrained by their
+% capacity, e.g. land owners with low capital available might not able to develop
+% tourism within their domain.
+% In \textbf{Implicit modeling}, which is originated from behavioral economic
+% theory, agents are full rational and economic initiative. Decision-makers are
+% represented as a computational agent who is able to reason his/her objective
+% function and do the calculations, assuming a full possess of information needed.
+% Then agents are able to select the best decision from a range of feasible
+% alternatives while the selection process itself is assumed to be costless in
+% terms of computation, i.e. the cognation process is somehow negligible and
+% agents are highly motivated by their goal.
+% The objective function can be total income or total profit, and usually
+% interpreted as a linear function, with a series of constraints indicating the
+% limited ability of the decision-maker in terms of resource and information.
+% Therefore, inefficient decisions are ascribed to the infrastructural defect,
+% such as the lack of accessibility of crop price in the market due to the failure
+% of information sharing or illustration provided by government. Although the
+% hypothesis of rational decision maker is less realistic and might even
+% contradictory to real observations, it simplifies the problem and is useful for
+% optimization problem.
+% \citealt{Schreinemachers2011a} developed a high-complex agent-based simulation
+% model to understand how various external drivers affect a heterogeneous
+% population of farm households and the agro-ecological resources these households
+% command. The model involves different optional modules that enable spatial
+% interactions and social interactions without sacrifice to the heterogeneity of
+% agent and landscape. Farmers are divided into hierarchical classes, having
+% different phases of decision-making process, i.e. investment, production and
+% consumption. Emergence of innovations depends on population cluster level, i.e.
+% high population cluster level would indicate a better information exchange thus
+% a higher probability of adopting new innovations.
+% Farmers adapt their resource use in response to changes in the relate scarcity
+% of these resources as affected by policies, climate, technologies, and markets,
+% while at the same time, they make expectation about crop yields, water supply
+% and market prices based on past experience. The articulation between agents and
+% environment are realized through the crop production module, as the crop yield
+% depends on the environmental condition, e.g. soil fertility or water supply from
+% stream flow, as well as farmers' decision, e.g., irrigation techniques,
+% fertilizer load. At the core of the model is the Mathematical Programming (MP)
+% that simulates the actual decision-making of individual farm households, who are
+% repeatedly solving a constrained optimization problem with respect to their
+% objectives. The model is applied to several case studies and proved to be of
+% great strength and flexibility, since it embraces various modules and allows
+% capturing much economic and environmental heterogeneity among agents.
+% 
+% However, the domains between explicit and implicit models are not exclusive to
+% each other. In fact, we expect a third form that lies between the explicit model
+% and implicit one, which we would call it \textbf{Hybrid Form}. As have seen that
+% the bifurcation of two behavioral models lies on the belief that whether human
+% is full rational or not, a hybrid form can stay in between. It could draw on the
+% advantage of implicit form, which is easy for calibration and useful for
+% quantitative evaluation, but at same time assimilate the knowledge derived from
+% explicit method, such as behavioral strategies or parameters, as the framework
+% of behavioral model or as constraints to bound the objective function.
+% \citealt{Becu2003} adopted a multi-agent system to simulate a small catchment
+% water management in northern Thailand. The modeling framework in that paper
+% involves biophysical modules for simulating the hydrological system with its
+% distributed water balance, irrigation scheme management and crop and vegetation
+% dynamics, while the social dynamics are described as a set of resource
+% management processes (water, land, cash, and labor force).
+% A majority of agents represent farmers in the region, while a small number of
+% special agents are defined as a water manager who controls the release of weir
+% for irrigation. In this paper, the author uses a mixture application of both
+% implicit and explicit method to model agents' behaviors. Specifically, farmers'
+% decision criteria is to maximize the profit by choosing the most profitable crop
+% and other series of investment alternatives, using implicit optimization
+% approach, while Managers decide the diversion of water supply to the canals
+% according to the water expectation level and ratio between upstream and
+% downstream water shortage, which is more explicit alike.
+% 
+% Interactions not only occur between agents and environment but also among agents
+% themselves. Interaction amongst agents can be classified into two types:
+% \textbf{Direct interaction }and \textbf{Indirect interaction}. Direction
+% interaction refers to the case in which the agent is aware of other's situation,
+% and can interact with neighbours by means of information exchange or duplication
+% of other's behavior. One typical example is the diffusion of agriculture
+% techniques. When an innovative agriculture technique becomes available, only a
+% portion of farmer may decide to adopt such technique in their farming practice.
+% More often those volunteers are farmers who are close to the origin of
+% information and therefore are earlier to be informed by the availability of new
+% techniques, or are farmers characterized as bold behavioral agents who are risk
+% affine and would like to take adventure for the potential gain.
+% By observing the consequence of antecedent decisions, other neighboring farmers
+% then obtain such information and would try to adopt new method if they consider
+% it beneficial for their own purpose, or avoid it otherwise.\citealt{Ng2011}
+% applied an agent-based hydrologic-agronomic model (SWAT) with optimizing agent
+% behavior to quantify the water quality impact due to farmers' choice on bio-fuel
+% crops. Given the fact that farming bio-fuel crops is relatively new practice,
+% not all farmers are aware of that and would like to convert their traditional
+% crops into the new one. The paper described a process that the risk-averse
+% farmers would only obtain the information of new bio-crops (e.g. price,
+% productivity, etc.) once they have observed their neighbors' results.
+% 
+% \textbf{Indirect interaction} can be obscure but significant, because of the
+% issue of contradiction between local optimum and global optimum. More
+% specifically, in this case each agent pursues their maximum utility according to
+% the assumption of economic rationality, while chasing the local optimum may turn
+% out to hamper the achievement of global maximum. Take the use of nutrient
+% fertilizer as an example. Under the constraint on nutrient fertilizer
+% application for the sake of environmental protection, one moment of reflection
+% can reveal that the increased use of fertilizer by one farmer would inevitably
+% undermine other's opportunity in using nutrient fertilizer.
+% As a consequence, one might maximize the objective function for certain group of
+% agents, but with the sacrifice to the loss of all remaining ones. Completing for
+% land resource is another typical example. \citealt{Schreinemachers2011a}
+% developed a high-complex agent-based simulation model to understand how various
+% external drivers affect a heterogeneous population of farm households and the
+% agro-ecological resources these households command. The model involves different
+% optional modules that enable spatial interactions and social interactions
+% without sacrifice to the heterogeneity of agent and landscape.
+% One component of social interactions described in this paper is the transaction
+% of available land plots and water rights, which is modeled as a simple auction
+% mechanism taking into account the internal transportation cost, i.e. each agent
+% bids for that plot and would acquire it if its bid out compete others. Although
+% the author did not explicit comment on such interaction as indirect, one can
+% easily figure out that in this case there exists a tradeoff between the local
+% farmer's profit and global welfare.
+% 
+% \textbf{Behavioral Parameterization} is another important issue which in
+% principle should be done before any particular behavioral modeling approach
+% being selected. As the implementation of human decision-making processes is
+% critical to reflect agents' behavior and properly incorporate the impacts human
+% interactions have, the agent attributes and behavioral response functions that
+% represent these processes require knowledge support from qualitative and/or
+% quantitative empirical sources.
+% By parameterizing targeted agents' behavior, one can not only gain the knowledge
+% on agents' behavioral strategy, but can also identify the agent typology which
+% is helpful to simplify the problem. Alex \citealt{Smajgl2011} proposed a
+% framework for parameterizing the human behavior. As suggested by
+% \citealt{Smajgl2011}, two fundamental steps involves in conceptualizing the
+% human behavioral model: 1) the development of behavioral categories; and 2) the
+% scaling to the whole population of agents. The second step is nothing but about
+% assigning the parameters derived from samples to target population, while the
+% first one is more methodological which concerns on the procedures of
+% conceptualizing the behavioral parameters based on the samples. Specifically,
+% the parameterization framework of agent behavior can be identified as a
+% three-stage procedure:
+% 
+% \begin{enumerate}
+% \item Identify different classes of agents \item Specify the values for agent
+% attributes or the parameters for the behavioral rules agents follow, in order to
+% develop the typology of different agent within same class \item Up- or
+% down-scale the parameters into the whole population.
+% \end{enumerate}
+% 
+% Distinctive agent classes, such as farmers with respect to urban regulators, can
+% be distinguished and categorized according to expert's knowledge, participant
+% observation, interviews, etc. Then, within each class, sub-classes can be
+% further introduced by identifying agents with the same behaviors and similar or
+% identical parameters of behavior. Sub-class can be specified based on agent
+% attributes (e.g., age, capital) or from data on agent behaviors derived from
+% same techniques mentioned above. After complete the parameterization of samples,
+% one have to assign the results to the whole population by means of proportional
+% up- or down-scaling, or by Monte Carlo approach if representativeness of the
+% samples cannot be assumed.
+% 
+% \textbf{Modeling Time Step} is crucial due to the intrinsic difference in the
+% frequency between the natural process and human decision-making. Usually natural
+% process requires a finer temporal resolution from hours to daily for simulating
+% the hydrological process, while human's decision is taken on a longer time lag.
+% One simple example is the farmers' choice of crop which is often made annually.
+% Therefore, there exists a discrepancy between two systems and requires
+% coordination. In general, the global modeling time step is dominated by the
+% longest time step required. More specifically, the decision-making process often
+% requires the information on larger time scale, which can be obtained by simply
+% aggregating piecemeal information step by steps. In \citealt{Maneta2009} paper,
+% the hydrological model is run on daily step and the economic model is simulated
+% on monthly scale.
+% 
+% \textbf{Calibration} and \textbf{Validation} of such coupled socio-hydrological
+% system can be always investigated in two aspects, both for the natural process
+% component and for agents' behaviors. Regarding to natural system, one can refer
+% to the traditional techniques of model calibration, such as using field measured
+% data. Validation concerns how well model outcomes represent real system
+% behavior.
+% Validation therefore involves comparing model outputs with real-word
+% observations or the product of another model or theory assumed to adequately
+% characterized reality. Outcomes of interest may be demographic, such as
+% aggregated spatial distribution of population or migration, patterns and degree
+% of natural resource exploitation, spatial pattern of land cover. For example,
+% one can use remote sensing images of land use to check the truthfulness of
+% simulated scenarios. Monte Carlo run and sensitivity analysis are other
+% alternatives to assess the robustness of the model. When the object is the
+% agents' behaviors, things become much more complex. As we mentioned before in
+% conceptualization of human behaviors, the behavioral parameters can be obtained
+% directly using experts' knowledge, social survey, and questionnaires and so on.
+% Mathematical Programming (MP) is another popular method for calibrating
+% behavioral parameters in objective functions, particularly useful for implicit
+% method.
+% The inherent nonlinearity and enormity of possible human behavior responses
+% represents extremely complex challenges for the validation of human behavior
+% model. The technology for validating behavioral model includes the current
+% capabilities for verifying, validating, evaluating and testing, as well as
+% knowledge-based systems. Particularly, the validation can be performed at
+% different level such as domain correspondence, physiological correspondence, or
+% psychological correspondence. Validation against multiple levels would be
+% favored to better confirm the behavioral model, but would greatly increase the
+% amount of work required. Validating data source can be the human behavioral
+% data, validated theory or experts' judgment.
+
+% ============================================================
+\section{Behavioral modelling}\label{sec:intro_behaModel}
+
+The impact of human societies on the natural system is mainly through the
+anthropogenic activities, in which people make decisions on how to react to
+external conditions towards certain goal. On a minimal level such
+decision could be, e.g. the choice of whether save water or use more water for joy, while
+on the other cases the decision may be more critical and influential, such as
+the decision of constructing nuclear power plant or hydroelectric reservoir.
+Therefore understanding how human behaves will provide precious insights and
+serve as foundations for conceptualizing the behavioral models, which in
+turn is the key to build an effective and reliable CHNS model. 
+
+Modeling human behavior, however, is rather a non-trivial task. Human behavior
+is well recognized as a complex non-linear multi-variate process due to the high
+heterogeneity and uncertainties in human cognition and decision making process
+\citep[e.g.,][]{george2008new,gluck2006modeling}.
+By nature human are nothing but intelligent entities who have control over
+their actions and internal states in order to achieve goals.
+In psychological literature, human behaviors are under the control of
+motivation, while motivation comes from need. From the motivation based
+behavioral mechanism it has developed diverse theories, noticeably in the
+studies of cognitive science \citep[e.g.,][]{bobrow2014representation,
+miller2003cognitive} and behavioral decision-making \citep{simon1959theories}.
+This section will review some critical aspects of the behavioral modeling in the
+literature.
+
+\subsection{Descriptive versus normative}
+
+Countless attempts in modeling humans' have long been given in isolated fileds,
+particularly in cognitive science and behavioral economics, but in general those
+approaches can be categorized into two broad paradigms, namely descriptive
+method or normative one. In the first case, descriptive modeling of human
+behavior strives on describing and explaining the mechanism of how humans make
+choices. Studies as such can mostly be found in many cognitive science
+literature, which investigates the mental structure and information process in
+the brain, seeking to understand the mechanism of how human thinks and reasons.
+Theories developed so far has involved into a number of Human Behavioral
+Representation (HBR) models \citep{mavor1998modeling}, such as the health belief
+model (HBM) \citep{rosenstock1988social}, social-cognitive theory (SCT)
+\citep{bandura2001social}, theories of reasoned action (TRA)
+\citep{fishbein1975belief} and planned behavior (TPB) \citep{Netemeyer1991}, and
+the protection motivation theory (PMT) \citep{rogers1975protection}.
+Applications can be found largely in the health education and promotion studies,
+where researchers adopt HBR to ensure the adherence of medical treatment of
+patients. It is also worth mentioning that artificial intelligence was derived
+from this field \citep{mccarthy2006proposal}.
+
+On the other hand, the classic normative approach does not concern on the
+internal states of the decision makers, but focuses on providing the guidance 
+ to lead them towards the `optimal' solutions. The normative paradigm is
+frequently seen in the behavioral economic and engineering field, where the idea
+is to find the best alternative for improving the performance of the target
+under investigation.
+It is built on the assumption of rational decision maker, whose decision-making
+process is goal oriented and seeks on attaining optimal solution in order to
+maximize (minimize) some explicit or measurable criterion. Typically the utility function
+is used for providing such measures, where people use it to rank the preference
+of different alternatives. In other word, the decision-making process in this
+case is intrinsically an optimization problem. Variations from this discipline
+includes multi-criterion decision analysis (MCDA, see \cite{zionts1979mcdm}), in which
+decision-maker is facing many objectives and has to make a tradeoff, and Game
+Theory \citep{von2007theory} where interactive decisions may take place among
+multiple decision makers.
+
+Apart from its popularity, the normative paradigm constantly suffers from the
+critics about rational agent assumption, which is often contradicted with
+reality as humans' behaviors might not be entirely rational
+\citep[e.g.,][]{baron1998judgment,nickerson1998confirmation}.
+Such rational agent assumption, however, can be relaxed by assuming different types of rationalities, e.g.
+bounded rationality in which decision maker has incomplete access of information
+and hence results into suboptimal decision \citep{simon1957models}.
+Other people defend the full rationality as the consequence of natural
+evolution, as only rational actors can survive during the natural selection
+\citep{capra2011rationality}. Although the rationality assumption is somehow
+debatable, what can not be reduced in the assumption is the functional behavior
+formulation which connect the means to the end. 
+% This again may counter-interact
+% with real cases where `optima' decisions do not imply their rationality, e.g., a
+% paranoid criminal.
+
+Despite the large applications of both paradigms, it is difficult to say one is
+superior than the other. On one hand, the descriptive representation of human
+behavior is more intuitive. Many HBR models require observed samples for model
+calibration, and hence is in principle more close to reality and also easy to be
+validated.
+However, given the high heterogeneity of sample data it is often impossible to
+parametrize the model for each individual nor can it be generalized to develop
+common knowledge. Moreover, application of descriptive behavioral model in
+current studies implies the limited predictive skill even with state-of-art
+approach.
+On the other hand, the normative paradigm is less context dependent. If one can
+accept the rationality assumption, there are well-defined axioms for
+constructing the utility and formulating the problem. And there are numbers of
+algorithm available for searching possible alternatives and solving such
+optimization problem, e.g. dynamic programming, evolutionary algorithm, etc.
+Nevertheless, one has to pay attention to the formulation of the behavioral
+optimization problems, particularly the objective function, because tradeoff
+persists under many objectives or even within a single objective problem but
+considering short-run or/and long-run strategies. In addition, it is difficult
+to identify all possible alternatives leading to suboptimal performance.
+One may consider the outcome from normative formation of behavior models as an
+equilibrium state and postulates that the actor will eventually behave in an
+optimal way, which also give the normative approach somewhat the predictive
+capacity, while the descriptive one can be described as an explicit approach in
+explaining the internal state transitions before the equilibrium state is
+reached. Therefore, the choice between the two paradigms depends on the characteristic of the problems.
+
+\subsection{Implicit modeling versus explicit approach}
+
+The architecture of human behavioral models is reflective of the behavioral
+paradigm, as was described in previous part.
+From modeling perspective, there are two broad ways of approaching human
+behavior, namely \textit{Explicit} method and \textit{Implicit} method (or
+optimization based). 
+
+As rooted in Artificial Intelligence and Cognitive Science, explicit models
+usually take a structured design focusing on describing the procedures of how
+human act to make a decision, characterized by an incomplete representations of
+reality as analogous to the incapability of humans in capturing the world
+accurately, and is highly dynamic as representative of humans' adaptive nature.
+The Modeling frameworks can be grouped in the following three classes: $1$)
+Decision-tree models or rule-set based models, where each non-leaf node
+represents a triggering condition or operation, and leaf node represents the
+behavioral decisions. $2$) Task network models in which the operator goals are
+decomposed into their component tasks. Therefore, to achieve the final goal
+requires the accomplishment of series of tasks. It is necessary to point out that in this case the
+decision-making process concerns with how tasks are represented, and less
+emphasis is put on the final outcome. In other word, the actor is interested in
+the `rational' decisions (so called instrumental rationality, see
+\cite{heidegger1954question}). to achieve the task rather than obtain the
+optimal outcome.
+Therefore, it cuts off the connection between the means to the ends, while the
+latter in this case are rather an endogenous components of the model of the
+environment. $3$) Cognitive models where mental states upon which
+reasoning, decision making, and behavior are explored and constructed. It is considered as
+most realistic framework for modeling humans' behavior, providing the cognitive
+foundations for other framework, but the downsides are the high complexity and
+intensive computation cost. 
+
+In general, explicit models can be graphically represented as hierarchical
+set of nodes and edges with links standing for the control flows, and decision
+makers follow simple rules (also referred as condition-action, stimulus-response
+rules or if-then rules) that guide their decision-making process. Apart from the
+cognitive models, it is also relatively easy to validate these models as in each
+branch one can simply check whether the decision maker do follow certain path or
+not, by interviewing target or/and expertise. However, constructing a decision
+tree is not a trivial task, as the researcher needs to identify not only the
+most important behavioral factors, but also the correct sequence. Moreover, in
+dealing with large number of entities, which may involve thousands of
+decision-makers, it will be unfeasible to derive the behavioral
+rules for all the targets considered.
+
+% \citealt{Ducrot2004a} proposed a multi-agent model prototype to represent the
+% relationships between urbanization dynamics and land and water management in a
+% peri-urban catchment area, where farmers' decision-making process is guided by
+% a series of ``rules''.
+% In this case two types of agents are involved which are farmers and land
+% owners.
+% Farmers make decisions about which crop to grow while the urban owners decide
+% their investment strategy on land (plot), and at same time they compete for
+% the use of unoccupied plots. However, agents' decisions are constrained by
+% their capacity, e.g. land owners with low capital available might not able to
+% develop tourism within their domain.
+
+In \textit{Implicit modeling}, decision-makers are assumed as fully rational and
+very often economic initiative, represented as a computational agent who is able
+to reason his/her utility function and do the math. Final decision is the one
+that maximize the utility function, derived from a range of feasible
+alternatives. The utility function can be monetary performance or other
+risk-based indicator such as regret.
+Different from the explicit approach, the implicit models focus on the best
+outcome achievable from all possible alternatives, while pays less interest on
+the explicit state transitions of reaching such results. In addition, the computation
+engine incorporated in the behavioral model for solving optimization problems
+postulates that the decision-makers have all information necessary for doing
+complex math, and the computation cost is usually free or negligible. These
+assumptions reflect the prescriptive nature, where the models provide means for
+identifying the behavioral inefficacy components and guidance toward optimal
+outcome. As was mentioned above, the normative paradigm depicts the equilibrium
+state assuming the decision-maker will ultimately make the best choice given
+sufficient resource and time. If the rational assumption can hold, then the
+implicit model also acquires the predictive skill in describing what may occur
+in long-run.
+
+As deeply rooted in the normative paradigm, the implicit behavioral models are
+also criticized for its strong assumptions, such as full rationality, super
+computation capacity, and full information access. Many assumptions in fact can be
+compromised by carefully identify the problem nature and adapt the models
+accordingly. For example, the utility function can be constrained indicating the
+limited ability of the decision-maker in terms of resource and information.
+Therefore, inefficient decisions are ascribed to the infrastructural defect,
+such as the lack of accessibility of crop price in the market due to the failure
+of information sharing.
+
+
+% \citealt{Schreinemachers2011a} developed a high-complex agent-based simulation
+% model to understand how various external drivers affect a heterogeneous
+% population of farm households and the agro-ecological resources these households
+% command. The model involves different optional modules that enable spatial
+% interactions and social interactions without sacrifice to the heterogeneity of
+% agent and landscape. Farmers are divided into hierarchical classes, having
+% different phases of decision-making process, i.e. investment, production and
+% consumption. Emergence of innovations depends on population cluster level, i.e.
+% high population cluster level would indicate a better information exchange thus
+% a higher probability of adopting new innovations.
+% Farmers adapt their resource use in response to changes in the relate scarcity
+% of these resources as affected by policies, climate, technologies, and markets,
+% while at the same time, they make expectation about crop yields, water supply
+% and market prices based on past experience. The articulation between agents and
+% environment are realized through the crop production module, as the crop yield
+% depends on the environmental condition, e.g. soil fertility or water supply from
+% stream flow, as well as farmers' decision, e.g., irrigation techniques,
+% fertilizer load. At the core of the model is the Mathematical Programming (MP)
+% that simulates the actual decision-making of individual farm households, who are
+% repeatedly solving a constrained optimization problem with respect to their
+% objectives. The model is applied to several case studies and proved to be of
+% great strength and flexibility, since it embraces various modules and allows
+% capturing much economic and environmental heterogeneity among agents.
+
+Nevertheless, the domains between explicit and implicit models are yet exclusive to
+each other, but rather a continuum in between. Therefore, it is expected a third
+hybrid form, which could draw on the advantage of implicit form, as flexible and
+content independent, but at same time assimilate the knowledge derived from
+explicit method, such as behavioral strategies or parameters, as the framework
+of behavioral model or as constraints to bound the objective function. 
+% \citealt{Becu2003} adopted a multi-agent system to simulate a small catchment
+% water management in northern Thailand. The modeling framework in that paper
+% involves biophysical modules for simulating the hydrological system with its
+% distributed water balance, irrigation scheme management and crop and vegetation
+% dynamics, while the social dynamics are described as a set of resource
+% management processes (water, land, cash, and labor force).
+% A majority of agents represent farmers in the region, while a small number of
+% special agents are defined as a water manager who controls the release of weir
+% for irrigation. In this paper, the author uses a mixture application of both
+% implicit and explicit method to model agents' behaviors. Specifically, farmers'
+% decision criteria is to maximize the profit by choosing the most profitable crop
+% and other series of investment alternatives, using implicit optimization
+% approach, while Managers decide the diversion of water supply to the canals
+% according to the water expectation level and ratio between upstream and
+% downstream water shortage, which is more explicit alike.
+
+% \subsection{Public majority versus individual behavior}
+\subsection{Abstract agent versus real person}
+
+The target entity of behavioral models does not necessarily take the form of
+individual human beings, but may also be the organizations or
+infrastructures where humans' decisions play the major role in their
+functionalities, such as the association of farm households or the regulated
+reservoir with central management committee. 
+Therefore, modeling the behavioral entities can be approached at different
+dimensions, ranging from large scale organizational  `agent' to micro scale real
+actors. It is usually intuitive to justify the choice of such scale issue
+according on the specific problems one is targeting. For instance, studies of
+economics tend to apply behavioral models on the high abstraction level of
+behavioral entities such as firms, or on governmental institutions, while
+cognitive researches tend to be more interested in studying a individual
+behaviors. 
+
+However, by and large it is easier to conduct the behavioral modeling for the
+high level-of-analysis than for a particular entity. On one hand, for the
+normative paradigm rational assumption becomes more valid as those behavioral
+entities generally are interested in maximizing the profit or social welfare,
+and the utility functions can be well defined for solving optimization problem.
+In addition, the prescriptive solutions feature the decision-aid for helping
+such entities to overcome the inefficacy of current operation and move towards
+more efficient one as long as they acquire sufficient resource, which is also
+more predictable behavior. On the other hand, it is also more manageable for
+explicit behavioral models to describe the decision-making process at
+organizational level, since in such a way that the organizational operations
+appears to be the key predictor for explaining the overall behavioral pattern
+\citep{krueger2002entrepreneurship}. Instead, when the scope is narrowed down to
+an individual decision-maker, the number of uncertainty factors in determining
+the predictant behavior increases dramatically, and the possibility of deviating
+from the rational performance is high \citep[e.g.,][]{baron1998judgment,
+nickerson1998confirmation, tversky1974judgment}.
+
+% It is usually intuitive to justify the choice of such scale issue
+% according on the specific problems one is targeting, but the choice the
+% modeling technique needs to be taken with caution.
+% 
+% For instance, studies of economics tend to apply behavioral models on the high
+% abstraction level of behavioral entities such as firms, or on governmental
+% institutions, but with distinctively purposeful use of the modeling techniques. 
+% Many successful applications of normative behavioral paradigm can be found in
+% the studies of microeconomics to inform the decision-makers with better
+% alternatives \citep[e.g.,][]{}.
+% In this case it is easy to validate the rational assumptions as those behavioral
+% entities generally are interested in maximizing the profit or social welfare,
+% and the utility functions can be well defined for solving optimization problem.
+% In addition, the prescriptive solutions feature the decision-aid for helping
+% such entities to overcome the inefficacy of current operation and move towards
+% more efficient one as long as they acquire sufficient resource, which is also
+% more predictable behavior.
+% 
+% On the other hand, there are also quite an amount of studies using the explicit
+% models to 
+% 
+% There are also cases of using explicit models for large scale behavioral
+% analysis. Under large scale analysis where each agent is modeled explicitly, the
+% focus lies on differentiate heterogeneity among individual behaviors. Moreover,
+% the social interactive behavior can be included as well. However, due to the
+% high demand of calibration of parameters, exploring the behavior of each agent
+% with descriptive method is not feasible. Instead, people tends to only identify
+% representative behavioral model from a subset of samples and use it for group
+% agents.
+% 
+% In general, the complexity (rationality) in modeling the behavior increases as
+% the modeling entity becomes more specific, e.g., a man's cognitive
+% process in making the decisions. Moreover, the assumption about full rationality
+% is less obvious for a single actor who is often observed in
+% making non-rational choice even there are advanced tools or information for
+% supporting the rational choices. Intuitively, explicit models are more dedicated
+% to this case in which one can describe the actual behavioral pattern in detail
+% from observed (survey) data.
+
+% Decision making theory focuses on the analysis of the individual behaviors
+% facing aleatoric uncertain \citep{mccarthy2006proposal}, or in presence of a group of decision
+% makers whose decisions may ultimately impact his/her choice \citep{game thoery}.
+% In general, there are two distinctive decision-making paradigms, namely a
+% normative and a descriptive one, respectively.  On the other hand, the
+% behavioral decision theorists from descriptive paradigm share the overlap with
+% normal cognitive science, where their focus lies on understanding how and why
+% decision-making processes are operated as they do. The decision-making is
+% context specific and can be described as solving a series of task with efficient
+% ways without explicitly addressing the optimal value (so called instrumental
+% rationality). In other word, it cuts of the relationship between the means to
+% the end.
+% 
+% \footnote{The term cognition ranges in applicability from relatively simple 
+% stimulus-response decision making to the point where actors are proactive, 
+% take initiative, and have larger intentions.}
+
+
+% \subsection{Multi-agent framework}
+
+% =====================================
+\section{Objective and organization of dissertation}
+
+  The present thesis is essentially a part of overall picture concerning on the
+  CHNS analysis. In this work, we developed an innovative decision-analytic
+  framework based on the idea of CHNS and the behavioral models as the main
+  contribution. We constructed a realistic model for a human regulated
+  lake-agricultural system, in which different types of agents are actively
+  adapting to the changing socio-environmental conditions by strategically
+  interacting on the environment,  while at meantime receiving the feedbacks
+  from the natural systems. In particular, we adopted the ABM framework embedded
+  with implicit behavioral models to represent the decision-making process of
+  agents, inspired from traditional normative decision-making analysis.
+  Different from the previous studies where humans' behaviors are either lumped
+  conceptually in the system or modeled with simple decision rules, the implicit
+  models are built on the normative paradigm of decision analysis using
+  optimization models and allows agents to self-organize their decisions that
+  best suit for their own objectives without being constrained by pre-defined
+  behavioral structure.
+  Interactions among different agents also be included by cross-conditioning
+  ones' decisions to the other.
+
+  The proposed CHNS model offers a unique framework to simulate different
+  adaptation options under changing boundary conditions, namely hydro-climatic
+  drivers or socio-techno-economic forcings. In addition, it allows one to
+  explore the tentative pictures of human-water system resulting from
+  co-evolutionary process, based on which prescriptive solutions can be
+  identified for improving the system's performance under uncertain future
+  scenarios. The potential of the CHNS model is demonstrated through a series of
+  concrete applications on the Adda River basin located in North Italy, where
+  the presence of humans' signatures are dominant, and the system has
+  been undergoing rapid changes in recent decades possibly due to the
+  dual-affect of climate change impact and local human activities. We show how
+  the traditional optimization based decision-making analysis embedded in the
+  CHNS model can be used to diagnosis the complex human-natural system under
+  changing conditions, and to search for the potential adaptation measures to
+  alleviate the negative affects.
+
+  Since the same study area is used across the entire dissertation, in the following
+  chapters Chapter \ref{ch:study_site} will first provides a full description
+  about the pilot study region located in North Italy, namely the Adda River 
+  water systems, on which the proposed decision-analytic framework was constructed
+  and examined. In Chapter \ref{ch:distrilake}, the author will explain the
+  proposed CHNS models built with different components, namely the physical
+  environment and biological processes, as well as the agents' behavior.
+
+  The first case study will be given in Chapter \ref{ch:coadaptation}, in
+  which we discuss the value of proposed CHNS models first as a descriptive tool
+  to diagnosis the performance of current system, and to assess the degradation
+  of it under future projections given more extreme hydro-climatic conditions.
+  Then we explore the potential of strategical interactions (co-adaptation)
+  between the authoritative decision-maker and active stakeholders as a way to
+  break the current rigid policy design and move towards more timely and
+  flexible structure. We show in our results how the co-adaptation approaches
+  can substantially improve the systems' performance under drought conditions
+  without introducing any new engineering solutions.
+
+  Chapter \ref{ch:robustness} extends the idea of co-adaptation approach, but
+  weaves the story with deep uncertainty \citep{lempert2003shaping} in which the
+  focus lays on assessing the vulnerability of current systems using sensitivity
+  analysis, assuming the uncertainty of the hydro-climatic drivers in the future
+  will be much wider than they are now. In this work, the proposed
+  decision-analytic framework allows us to perform multi-level analysis of
+  systems' robustness, and to explore the adaptive strategies for improvement.
+  We show how the asymmetry of robustness may emerge when the robust criterion
+  is defined at system's level and stakeholders' level, respectively. We also
+  demonstrate the co-benefit from the strategic interaction between
+  the authoritative decision-maker and the active stakeholders in improving the,
+  highlighting the necessity and potential from timely co-adaptation in facing
+  the deep uncertain future.
+
+  In Chapter \ref{ch:weatherforecast}, we test the application of CHNS
+  models as an alternative assessment framework for investigating the value of
+  long-term climate forecast at end-use perspectives. We focus on examining
+  the relationship between the forecast accuracies, as the traditional skill
+  measures, and the operational value of them for supporting actual decisions
+  of users of interest in terms of improving their economical performance or
+  productions. Our results highlight that the ordinal ranks of forecast skills
+  may not be consistent with their operational potentials. Although some
+  products do perform better than others in the simulations, there are no
+  conclusive evidence to support the superiority between the institutional
+  products and simple empirical ones, or even among the institutional products
+  themselves. 
+  
+%   Chapter \ref{ch:conclusions} will provide the final remarks
